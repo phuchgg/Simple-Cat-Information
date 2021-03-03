@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="style.css">
+<h2 class="red-text">CatPhotoApp</h2>
+<p class="red-text">Click here to view more
+    <a href="#">cat photo</a>.</p>
+<a href="#"><img class="smaller-image thick-green-border" src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back."></a>
+
+<div class="silver-background">
+    <p>Things cat love</p>
+    <ul>
+        <li>Cat nip</li>
+        <li>Laser pointer</li>
+        <li>Lasagna</li>
+    </ul>
+    <p>Top 3 things cats hate</p>
+    <ol>
+        <li>Flea treatment</li>
+        <li>Thunder</li>
+        <li>Other cats</li>
+    </ol>
+</div>
+<form action="https://freecatphotoapp.com/submit-cat-photo" id="cat-photo-form">
+    <label><input type="radio" name="indoor-outdoor" checked> Indoor</label>
+    <label><input type="radio" name="indoor-outdoor" > Outdoor</label><br/>
+    <label><input type="checkbox" name="personality" checked> Loving</label>
+    <label><input type="checkbox" name="personality" checked> Lazy</label>
+    <label><input type="checkbox" name="personality" checked> Energetic</label><br/>
+    <input type="text" placeholder="Cat photo URL" required>
+    <button type="submit">Submit</button>
+</form>
